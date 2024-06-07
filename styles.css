@@ -102,6 +102,7 @@ header .profile-image:hover {
   "card3 card2"
   "pic1 pic2";
 }
+/* Credit to https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction for help */
 
 .card {
   margin: 30px;
