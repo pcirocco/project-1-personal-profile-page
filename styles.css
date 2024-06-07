@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+
 }
 /* Link Styles */
 
@@ -74,7 +75,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +87,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #FF7A59;
 }
 .card {
   margin: 30px;
@@ -97,9 +98,16 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  
+
+
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #FF7A59;
+}
+
+#res{
+  line-height: 0px;
 }
 
 ul.skills {
